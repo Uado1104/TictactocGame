@@ -1,0 +1,52 @@
+﻿<Properties StartupConfiguration="{5F327391-4117-3D7E-08F0-58B2D55BED9F}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/AppLogic/UI/GUIManager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/AppLogic/UI/SelectView.cs" Line="15" Column="12" />
+      <File FileName="Assets/Scripts/AppLogic/UI/EndView.cs" Line="25" Column="10" />
+      <File FileName="Assets/Scripts/AppLogic/Battle/BattleMgr.cs" />
+      <File FileName="Assets/Scripts/AppLogic/Battle/PlayerController.cs" />
+      <File FileName="Assets/Scripts/AppLogic/Main.cs" Line="28" Column="49" NotebookId="1" />
+      <File FileName="Assets/Scripts/AppLogic/UI/GUIManager.cs" Line="21" Column="27" NotebookId="1" />
+      <File FileName="Assets/Scripts/AppLogic/GameState/GameStateManager.cs" Line="51" Column="46" NotebookId="1" />
+      <File FileName="Assets/Scripts/ProjectPub/Common/MVC.cs" Line="43" Column="35" NotebookId="1" />
+      <File FileName="Assets/Scripts/AppLogic/Model/OpponentModel.cs" NotebookId="1" />
+      <File FileName="Assets/Scripts/AppLogic/UI/MenuView.cs" Line="5" Column="1" NotebookId="1" />
+      <File FileName="Assets/Scripts/AppLogic/Model/ChessModel.cs" NotebookId="1" />
+      <File FileName="Assets/Scripts/AppLogic/UI/ChessBoard.cs" Line="32" Column="51" NotebookId="1" />
+      <File FileName="Assets/Scripts/AppLogic/UI/WinView.cs" Line="33" Column="77" NotebookId="1" />
+      <File FileName="Assets/Scripts/AppLogic/UI/PauseView.cs" Line="43" Column="1" NotebookId="1" />
+      <File FileName="Assets/Scripts/AppLogic/UI/MainView.cs" Line="1" Column="1" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TicTacToc" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="AppLogic" expanded="True">
+                  <Node name="GameState" expanded="True" />
+                  <Node name="Model" expanded="True" />
+                  <Node name="UI" expanded="True">
+                    <Node name="GUIManager.cs" selected="True" />
+                  </Node>
+                </Node>
+                <Node name="ProjectPub" expanded="True">
+                  <Node name="Common" expanded="True" />
+                  <Node name="Event" expanded="True" />
+                  <Node name="Mono" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ba6c4ff3-8171-48cd-9c58-7a81f549979b" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
