@@ -7,8 +7,6 @@ using UnityEngine.UI;
 public class SelectView : View
 {
     public Button btnSelectEasy;
-    public Button btnSelectNormal;
-    public Button btnSelectHard;
     public Button btnBack2Menu;
     public override string Name
     {
@@ -22,14 +20,6 @@ public class SelectView : View
         btnSelectEasy.onClick.AddListener(() =>
         {
             EventCenter.GetInstance().EventTrigger<string>("Enter2Battle", "Easy");
-        });
-        btnSelectNormal.onClick.AddListener(() =>
-        {
-            EventCenter.GetInstance().EventTrigger<string>("Enter2Battle", "Normal");
-        });
-        btnSelectHard.onClick.AddListener(() =>
-        {
-            EventCenter.GetInstance().EventTrigger<string>("Enter2Battle", "Hard");
         });
         btnBack2Menu.onClick.AddListener(() =>
         {

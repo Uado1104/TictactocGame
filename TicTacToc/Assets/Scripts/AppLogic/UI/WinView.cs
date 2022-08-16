@@ -38,8 +38,16 @@ public class WinView : View
 
     private void OnGameOver(string winner)
     {
-        string info = winner + "胜利！！！";
-        txtWinInfo.text = info;
+        if (winner == "0")
+        {
+            txtWinInfo.text = "平局 !!!";
+        }
+        else
+        {
+            string info = winner + "胜利！！！";
+            txtWinInfo.text = info;
+        }
+
     }
 
 }

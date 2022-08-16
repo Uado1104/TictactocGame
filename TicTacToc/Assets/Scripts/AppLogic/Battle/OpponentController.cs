@@ -26,6 +26,10 @@ public class OpponentController : MonoBehaviour
 
     private void HardMove()
     {
+        ChessModel chessModel = MVC.ChessModel;
+
+
+
 
     }
 

@@ -80,6 +80,7 @@
     <Compile Include="Assets/Scripts/AppLogic/GameState/EndState.cs" />
     <Compile Include="Assets/Scripts/AppLogic/Model/ChessModel.cs" />
     <Compile Include="Assets/Scripts/AppLogic/GameState/SelectState.cs" />
+    <Compile Include="Assets/Scripts/AppLogic/Battle/AIController.cs" />
     <Compile Include="Assets/Scripts/ProjectPub/Common/Singleton.cs" />
     <Compile Include="Assets/Scripts/AppLogic/UI/ChessPiece.cs" />
     <Compile Include="Assets/Scripts/AppLogic/UI/MenuView.cs" />

@@ -27,9 +27,9 @@ public class ChessModel: Model
         EventCenter.GetInstance().EventTrigger<ChessModel>("OnChessBoardDataChanged", this);
     }
 
-    private int[,] chessBoard;
+    private int[,] chessBoard = new int[3, 3];
 
-    public ChessModel()
+public ChessModel()
     {   
         chessBoard = new int[3, 3] { { 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 } };
         OnDataChanged();
@@ -41,7 +41,19 @@ public class ChessModel: Model
         OnDataChanged();
     }
 
-
+    public int[,] GetChessBoardModel()
+    {
+        int[,] chessList = new int[3, 3] { { 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 } };
+        for (int i = 0; i < 3; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                int v = chessBoard[i, j];
+                chessList[i, j] = v;
+          }
+        }
+        return chessList;
+    }
     public bool CheckPlayerIsWin(int winNumber = 1)
     {
         bool isWin = false;
@@ -65,6 +77,18 @@ public class ChessModel: Model
             if (isWin == true) break;
         }
         return isWin;
+    }
+
+    public bool CheckIsFull()
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                if (chessBoard[i, j] == 0) return false;
+            }
+        }
+        return true;
     }
 
     public void LoadLastGame()
